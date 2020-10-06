@@ -9,12 +9,12 @@
 
 ## Features
 
-| Task                      | |     Task status  | | 
-|----------------           |---------------|---------------|-----------------
+| Task                       | |     Task status  | | 
+|----------------------         |---------------|---------------|-----------------
 | Top 10 at bottom of HTML  |    | [x]    top 10       | 
 | Convert Work experience to an unorder list   |  | [x] unordered list<br/>[ ] format with CSS
-| Feedback responses  |  | [x] 6th question numeric input number<br/>[ x] Indication of too high or too low <br/>[ x] Exactly 4 opportunities <br/>[x] on 5th attempt give user the correct answer <br/>[ x] loop
-|      |  | [ ] <br/>[ ]  <br/>
+| Feedback responses  |  | [x] 6th question numeric input number<br/>[x] Indication of too high or too low <br/>[x] Exactly 4 opportunities <br/>[x] on 5th attempt give user the correct answer <br/>[x] loop
+| Add a 7th question w/multiple correct answers<br/>stored in an array<br/> 6 attempts <br>end - user guesses a correct answer or out of attempts    |  |[] question<br/>[]array <br/>[]<br/>
 
 
 ## License
