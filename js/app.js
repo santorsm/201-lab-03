@@ -1,5 +1,7 @@
 'use strict';
 
+var userScore = 0;
+
 var userName = prompt('Welcome to my website; what\'s your name?');
 console.log('User\'s name is: ' + userName);
 
@@ -103,7 +105,6 @@ for (var i = 0; i < size; i++) {
 
 
 var maxAttempts = 6;
-var userScore = 0;
 var answeredCorrectly = false;
 var correctFoods = [];
 var myFoods = ['rapini', 'manicotti', 'calamari'];
