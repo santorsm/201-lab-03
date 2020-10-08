@@ -94,16 +94,14 @@ for (var i = 0; i < size; i++) {
   } else if (parseInt(numberArray[i]) > myNumber) {
     alert('Too high. Try again.');
   } else if (parseInt(numberArray[i]) === myNumber) {
-    alert('Exactly! You should probably go play the lottery.');
+    alert('Exactly! You should probably go play the lottery. And now for something completely different!');
     userScore++;
     break;
   } else {
     alert(`Looks like you're out of guesses. The number was ${myNumber}.
-            Thanks for playing!`);
+      Thanks for playing!`);
   }
 }
-
-
 var maxAttempts = 6;
 var answeredCorrectly = false;
 var correctFoods = [];
