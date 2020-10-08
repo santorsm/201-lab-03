@@ -8,6 +8,7 @@ console.log('User\'s name is: ' + userName);
 alert('Hello ' + userName + '; nice to meet you!');
 
 // Matt - Question 1:
+function questionOne(){
 var userReady = prompt('Are you ready for some questions about me?').toLowerCase();
 
 if (userReady === 'yes' || userReady === 'y') {
@@ -15,8 +16,11 @@ if (userReady === 'yes' || userReady === 'y') {
   userScore++;
   alert('Great!  Let\'s go!');
 }
+}
 
+questionOne();
 // Matt - Question 2:
+function questionTwo(){
 var responseSibling = prompt('Do I have any sisters?').toLowerCase();
 
 if (responseSibling === 'no' || responseSibling === 'n') {
@@ -24,8 +28,12 @@ if (responseSibling === 'no' || responseSibling === 'n') {
   userScore++;
   alert('Correct! I don\'t have any sisters');
 }
+}
+
+questionTwo();
 
 // Matt - Question 3:
+function questionThree(){
 var responseHome = prompt('Am I originally from Seattle?').toLowerCase();
 
 if (responseHome === 'no' || responseHome === 'n') {
@@ -33,8 +41,12 @@ if (responseHome === 'no' || responseHome === 'n') {
   userScore++;
   alert('Correct! I\'m originally from New York');
 }
+}
+
+questionThree();
 
 // Matt - Question 4:
+function questionFour(){
 var responseUsaf = prompt('Did I serve in the USAF?').toLowerCase();
 
 if (responseUsaf === 'yes' || responseUsaf === 'y') {
@@ -42,8 +54,12 @@ if (responseUsaf === 'yes' || responseUsaf === 'y') {
   userScore++;
   alert('Correct! I was a pilot in the USAF');
 }
+}
+
+questionFour();
 
 // Matt - Question 5:
+function questionFive(){
 var responseDogs = prompt('Do I have any pets?').toLowerCase();
 
 if (responseDogs === 'yes' || responseDogs === 'y') {
@@ -51,7 +67,11 @@ if (responseDogs === 'yes' || responseDogs === 'y') {
   userScore++;
   alert('Correct! I have 2 dogs a golden retriever and german shepard');
 }
+}
 
+questionFive();
+
+function questionSix(){
 alert(`Hey ${userName}, I hear you like guessing numbers.
 
 I'll provide feedback to help you zero in on the number.
@@ -102,6 +122,11 @@ for (var i = 0; i < size; i++) {
       Thanks for playing!`);
   }
 }
+}
+
+questionSix();
+
+function questionSeven(){
 var maxAttempts = 6;
 var answeredCorrectly = false;
 var correctFoods = [];
@@ -143,3 +168,6 @@ while (maxAttempts > 0 && !answeredCorrectly) {
     break;
   }
 }
+}
+
+questionSeven();

@@ -1,5 +1,7 @@
 # 201-lab-03 
-
+Updated functions 
+Driver Anthony Ochoa 
+Navigator Matthew Santorsola
 ## About Me
 
  - This is a webpage "about me" it will:
