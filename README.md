@@ -9,13 +9,17 @@
 
 ## Features
 
-| Task                       | |     Task status  | | 
-|----------------------         |---------------|---------------|-----------------
-| Top 10 at bottom of HTML  |    | [x]    top 10       | 
-| Convert Work experience to an unorder list   |  | [x] unordered list<br/>[ ] format with CSS
-| Feedback responses  |  | [x] 6th question numeric input number<br/>[x] Indication of too high or too low <br/>[x] Exactly 4 opportunities <br/>[x] on 5th attempt give user the correct answer <br/>[x] loop
-| Add a 7th question w/multiple correct answers<br/>stored in an array<br/> 6 attempts <br>end - user guesses a correct answer or out of attempts    |  |[] question<br/>[]array <br/>[]<br/>
+<br/>
 
+### To Do:
+
+prompt user to guess a number  <br/>  [x] prompt added <br/>
+<br/>display all possible correct answers at the end <br/>  [x] display `rapini`, `manicotti`, and `calamari` at the end regardless of outcome<br/>
+
+tally the total number of correct answers <br/>
+[x] display total number of correct answers
+
+<br/>
 
 ## License
 
