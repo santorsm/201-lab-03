@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 # 201-lab-02 - 03
 
+=======
+# 201-lab-03 
+Updated functions 
+Driver Anthony Ochoa 
+Navigator Matthew Santorsola
+>>>>>>> a21a8fee27bb5ea2a3a712e1acf68fafb0966e95
 ## About Me
 
  - This is a webpage "about me". It will:
