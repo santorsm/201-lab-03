@@ -1,8 +1,9 @@
 
-# 201-lab-5c
-## saved under 201-lab-03 repository
+# 201-lab-5c  
+    started as 201-lab-02    
+    updated under 201-lab-03 and the 201-lab-03 repository
   
-## Project: About Me - began as 2010
+## Project: About Me
 This prokect involves creating a webpage "about me". The webpage will:
   - Give the user some basic information about me
   - Interact with the user by asking questions and a couple of guessing games
