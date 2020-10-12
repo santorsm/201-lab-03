@@ -1,24 +1,174 @@
+
 html {
   box-sizing: border-box;
-}
-
-h1 {
-  background-color: rgb(20, 33, 61);
-  color: rgb(252, 163, 17);
+  background-color: rgb(229, 229, 229);
 }
 
 body {
-  color: #343434;
-  margin: 0;
+  color:#777777;
+  margin: auto;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 32px;
+  font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+  font-style:normal;
+}
+
+.header {
+  font-family: Helvetica, sans-serif;
+	background-color: rgb(20, 155, 233);
+  color: white;
+}
+
+h1 {
+  font-size: 90px;
+  background-color: rgb(18, 129, 188);
+  color: white;
+  padding: 60px;
+  max-width: 100%;
+}
+
+div p {
+  background-color:rgb(18, 129, 188);  
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  font-style: italic;
+  font-size: 40px;
+  padding: 0px 200px 50px 150px;
+  position: relative;
+  box-sizing: border-box;
 }
 
 h2 {
-  text-decoration: underline;
+    color: black;
+    display: block;
+    font-size: 50px;
+    margin-block-start: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+.content-biography {
+  border: 1px solid black;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,12) 0px 2px 6px 0px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  padding: 10px 80px 50px 80px;
+  position: relative;
+  margin: 50px 20px 20px 80px;
+  max-width: 90%;
 }
-p {
-  padding: 5px;
+
+.content-ed-professional {
+  border: 1px solid black;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,12) 0px 2px 6px 0px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  padding: 10px 80px 50px 80px;
+  position: relative;
+  margin: 10px 20px 20px 80px;
+  max-width: 90%;
 }
+
+span.school {
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+ul {
+  display: block;
+  list-style-type: square;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 50px;
+}
+
+.content-top-ten {
+  border: 1px solid black;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,12) 0px 2px 6px 0px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  padding: 10px 80px 50px 80px;
+  position: relative;
+  margin: 10px 20px 20px 80px;
+  max-width: 90%;
+  /* display: block; */
+}
+
+h3 {
+  color: black;
+  display: block;
+  font-size: 1.2em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 10px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+}
+
+ol.top-ten {
+	counter-reset:li; /* Initiate a counter */
+	margin-left:0; /* Remove the default left margin */
+	padding-left:0; /* Remove the default left padding */
+}
+ol.top-ten > li {
+	position:relative; /* Create a positioning context */
+	margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+	padding:4px 8px 4px 30px; /* Add some spacing around the content */
+	list-style:none; /* Disable the normal item numbering */
+	border-top:2px solid #666;
+  background:#f6f6f6;
+  font-style: italic;
+}
+ol.top-ten > li:before {
+	content:counter(li); /* Use the counter as content */
+	counter-increment:li; /* Increment the counter by 1 */
+	/* Position and style the number */
+	position:absolute;
+	top:-2px;
+	left:-2em;
+	box-sizing:border-box;
+	width:2em;
+	/* Some space between the number and the content in browsers that support
+	   generated content but not positioning it (Camino 2 is one example) */
+	margin-right:8px;
+	padding:4px;
+	border-top:2px solid #666;
+	color:#fff;
+	background:#666;
+	font-weight:bold;
+	font-family:"Helvetica Neue", sans-serif;
+	text-align:center;
+}
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
+
+.footer {
+  background-color: rgb(20, 155, 233);
+  /* position: fixed; */
+  max-width: 100%;
+  /* top: 80px;
+  left: 10px; */
+  background-color: rgb(20, 155, 233);
+  color: white;
+  padding: 30px;
+}
+
+
+

@@ -1,27 +1,29 @@
-# 201-lab-03
 
-Added functions and updated code\
-**Driver** Anthony Ochoa \
-**Navigator** Matthew Santorsola
+# 201-lab-5c
+## saved under 201-lab-03 repository
+  
+## Project: About Me - began as 2010
+This prokect involves creating a webpage "about me". The webpage will:
+  - Give the user some basic information about me
+  - Interact with the user by asking questions and a couple of guessing games
+  - Give the user a score on how well you did answering the questions
 
-## About Me
+## Author: Matthew Santorsola
 
-- This is a webpage "about me". It will:
-  - Give you some basic information about me.
-  - Play some guessing games
-  - Give you a score on how well you did answering the questions
+## Links and Resources
+N/A
 
-## Features
+### 08 Oct 20:  
+  - Added functions and updated code  
+   **Driver:** Anthony Ochoa  
+  **Navigator:** Matthew Santorsola
 
-### **To Do:**
-
-**prompt user to guess a number** \
-  [x] prompt added  \
-  **display all possible correct answers at the end**  \
-[x] display `rapini`, `manicotti`, and `calamari` at the end regardless of outcome 
- \
-**tally the total number of correct answers** \
-[x] display total number of correct answers
+## Reflections and Comments
+- An interesting project. A good introduction and exposure. 
+- Ensure to align on code boundaries and expectations for items not explictly stated
+- I can improve on reaching out to ensure alignment on deliverable - qui tacet consentit may not be the case; Glad I've been reading up on my Wittgenstein!
+- Need to do a better job time-boxing - I've now installed a timer to do a better job of holding myself accountable going forward
+- Unable to duplicate the `NaN` the TA had given in feedback
 
 ## License
 
