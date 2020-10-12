@@ -23,7 +23,9 @@ N/A
 - An interesting project. A good introduction and exposure. 
 - Ensure to align on code boundaries and expectations for items not explictly stated
 - I can improve on reaching out to ensure alignment on deliverable - qui tacet consentit may not be the case; Glad I've been reading up on my Wittgenstein!
-- Need to do a better job time-boxing - I've now installed a timer to do a better job of holding myself accountable going forward
+- **Need to do a better job time-boxing - I've now installed a timer to do a better job of holding myself accountable going forward**
+- Unclear on the naming & saving convention. Shouldn't be an issue but has led to some unintended confusion on my part. I will ensure to query going forward
+- **Need to get a better understanding of the git concepts**
 - Unable to duplicate the `NaN` the TA had given in feedback
 
 ## License
